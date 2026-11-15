@@ -1,1 +1,1 @@
-# Learnpy.2
+#  solostudypy

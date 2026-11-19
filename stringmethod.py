@@ -9,3 +9,9 @@ print(nama2)
 nama3 = ['faisal','pradana']#untuk mengubah semua huruf menjadi hutuf keil
 join = ' '.join(nama3)
 print(join)
+
+title = ('tenggelamnya kapal panderwik').title()
+print(title)
+
+start = ('faizal pradana').startswith('faizal')
+print(start)

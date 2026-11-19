@@ -3,7 +3,9 @@
 nama = ('faisal').upper()#untuk mengubah semua huruf menjadi hutuf capital
 print(nama)
 
-ama = ('faisal').lower()#untuk mengubah semua huruf menjadi hutuf keil
-print(nama)
+nama2 = ('faisal').lower()#untuk mengubah semua huruf menjadi hutuf keil
+print(nama2)
 
-
+nama3 = ['faisal','pradana']#untuk mengubah semua huruf menjadi hutuf keil
+join = ' '.join(nama3)
+print(join)

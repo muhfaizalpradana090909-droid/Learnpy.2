@@ -6,12 +6,15 @@ print(nama)
 nama2 = ('faisal').lower()#untuk mengubah semua huruf menjadi hutuf keil
 print(nama2)
 
-nama3 = ['faisal','pradana']#untuk mengubah semua huruf menjadi hutuf keil
+nama3 = ['faisal','pradana']#
 join = ' '.join(nama3)
 print(join)
 
-title = ('tenggelamnya kapal panderwik').title()
+title = ('tenggelamnya kapal panderwik').title()#untuk mengubah setiap huruf depan kata menjadi huruf besar
 print(title)
 
 start = ('faizal pradana').startswith('faizal')
-print(start)
+print(start)#untuk mengecek awalan kalimat
+
+
+

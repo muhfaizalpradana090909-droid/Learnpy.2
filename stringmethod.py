@@ -6,9 +6,6 @@ print(nama)
 nama2 = ('faisal').lower()#untuk mengubah semua huruf menjadi hutuf keil
 print(nama2)
 
-nama3 = ['faisal','pradana']#
-join = ' '.join(nama3)
-print(join)
 
 title = ('tenggelamnya kapal panderwik').title()#untuk mengubah setiap huruf depan kata menjadi huruf besar
 print(title)
@@ -25,6 +22,21 @@ print(kota) #untuk mengcek huruf
 
 kota = 'makassar'.isalnum()
 print(kota) #untuk mengcek huruf dan angka
+
+kota = 'makassar'.isspace()
+print(kota) #untuk mengcek spasi, tab
+
+nama3 = ['faisal','pradana']#
+join = '_'.join(nama3)
+print(join)
+
+split = (join.split('_'))
+print(split)
+
+#sisah ljust dan rjust
+
+
+
 
 
 

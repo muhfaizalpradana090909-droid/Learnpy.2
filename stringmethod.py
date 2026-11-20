@@ -16,5 +16,18 @@ print(title)
 start = ('faizal pradana').startswith('faizal')
 print(start)#untuk mengecek awalan kalimat
 
+start = ('faizal pradana').endswith('pradana')
+print(start)#untuk mengecek akhir kalimat
+
+kota = 'makassar'.isalpha()
+print(kota) #untuk mengcek huruf
+
+
+kota = 'makassar'.isalnum()
+print(kota) #untuk mengcek huruf dan angka
+
+
+
+
 
 
